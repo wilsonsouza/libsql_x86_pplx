@@ -1,0 +1,131 @@
+﻿Build started 12/29/2015 07:18:56 PM.
+     1>Project "E:\projects\sql.manager.x86\sql.manager.vcxproj" on node 2 (ClCompile target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(363,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\5.5\msvc2013_64\include /I.\GeneratedFiles\Debug /IC:\Qt\5.5\msvc2013_64\..\qtmultimedia\include\QtMultimedia /IC:\Qt\5.5\msvc2013_64\..\qtmultimedia\include /I.\include /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN64 /D QT_DLL /D QT_MULTIMEDIA_LIB /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"objects\\" /Fd"objects\vc120.pdb" /Gd /TP /errorReport:prompt source\sql.connectionseventimpl.cpp
+         sql.connectionseventimpl.cpp
+     1>source\sql.connectionseventimpl.cpp(44): error C2872: '_Connection' : ambiguous symbol
+                 could be 'C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\adoint.h(111) : _ADOConnection _Connection'
+                 or       'E:\projects\sql.manager.x86\include\sql.connectionseventimpl.hpp(30) : sql::_Connection'
+     1>source\sql.connectionseventimpl.cpp(45): error C2511: 'HRESULT sql::ConnectionsEventImpl::raw_InfoMessage(sql::_Error *,EventStatusEnum *,_Connection *)' : overloaded member function not found in 'sql::ConnectionsEventImpl'
+                 E:\projects\sql.manager.x86\include\sql.connectionseventimpl.hpp(16) : see declaration of 'sql::ConnectionsEventImpl'
+     1>source\sql.connectionseventimpl.cpp(46): error C2352: 'sql::ConnectionsEventImpl::AllocDataTransfer' : illegal call of non-static member function
+                 E:\projects\sql.manager.x86\include\sql.connectionseventimpl.hpp(153) : see declaration of 'sql::ConnectionsEventImpl::AllocDataTransfer'
+     1>source\sql.connectionseventimpl.cpp(50): error C2440: '=' : cannot convert from '_Connection *' to 'sql::_Connection *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>source\sql.connectionseventimpl.cpp(52): error C2352: 'sql::ConnectionsEventImpl::Notify' : illegal call of non-static member function
+                 E:\projects\sql.manager.x86\include\sql.connectionseventimpl.hpp(152) : see declaration of 'sql::ConnectionsEventImpl::Notify'
+     1>source\sql.connectionseventimpl.cpp(59): error C2872: '_Connection' : ambiguous symbol
+                 could be 'source\sql.connectionseventimpl.cpp(44) : _Connection'
+                 or       'E:\projects\sql.manager.x86\include\sql.connectionseventimpl.hpp(30) : sql::_Connection'
+     1>source\sql.connectionseventimpl.cpp(60): error C2511: 'HRESULT sql::ConnectionsEventImpl::raw_BeginTransComplete(LONG,sql::_Error *,EventStatusEnum *,_Connection *)' : overloaded member function not found in 'sql::ConnectionsEventImpl'
+                 E:\projects\sql.manager.x86\include\sql.connectionseventimpl.hpp(16) : see declaration of 'sql::ConnectionsEventImpl'
+     1>source\sql.connectionseventimpl.cpp(61): error C2352: 'sql::ConnectionsEventImpl::AllocDataTransfer' : illegal call of non-static member function
+                 E:\projects\sql.manager.x86\include\sql.connectionseventimpl.hpp(153) : see declaration of 'sql::ConnectionsEventImpl::AllocDataTransfer'
+     1>source\sql.connectionseventimpl.cpp(65): error C2440: '=' : cannot convert from '_Connection *' to 'sql::_Connection *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>source\sql.connectionseventimpl.cpp(68): error C2352: 'sql::ConnectionsEventImpl::Notify' : illegal call of non-static member function
+                 E:\projects\sql.manager.x86\include\sql.connectionseventimpl.hpp(152) : see declaration of 'sql::ConnectionsEventImpl::Notify'
+     1>source\sql.connectionseventimpl.cpp(74): error C2872: '_Connection' : ambiguous symbol
+                 could be 'source\sql.connectionseventimpl.cpp(44) : _Connection'
+                 or       'E:\projects\sql.manager.x86\include\sql.connectionseventimpl.hpp(30) : sql::_Connection'
+     1>source\sql.connectionseventimpl.cpp(75): error C2511: 'HRESULT sql::ConnectionsEventImpl::raw_CommitTransComplete(sql::_Error *,EventStatusEnum *,_Connection *)' : overloaded member function not found in 'sql::ConnectionsEventImpl'
+                 E:\projects\sql.manager.x86\include\sql.connectionseventimpl.hpp(16) : see declaration of 'sql::ConnectionsEventImpl'
+     1>source\sql.connectionseventimpl.cpp(76): error C2352: 'sql::ConnectionsEventImpl::AllocDataTransfer' : illegal call of non-static member function
+                 E:\projects\sql.manager.x86\include\sql.connectionseventimpl.hpp(153) : see declaration of 'sql::ConnectionsEventImpl::AllocDataTransfer'
+     1>source\sql.connectionseventimpl.cpp(80): error C2440: '=' : cannot convert from '_Connection *' to 'sql::_Connection *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>source\sql.connectionseventimpl.cpp(82): error C2352: 'sql::ConnectionsEventImpl::Notify' : illegal call of non-static member function
+                 E:\projects\sql.manager.x86\include\sql.connectionseventimpl.hpp(152) : see declaration of 'sql::ConnectionsEventImpl::Notify'
+     1>source\sql.connectionseventimpl.cpp(88): error C2872: '_Connection' : ambiguous symbol
+                 could be 'source\sql.connectionseventimpl.cpp(44) : _Connection'
+                 or       'E:\projects\sql.manager.x86\include\sql.connectionseventimpl.hpp(30) : sql::_Connection'
+     1>source\sql.connectionseventimpl.cpp(89): error C2511: 'HRESULT sql::ConnectionsEventImpl::raw_RollbackTransComplete(sql::_Error *,EventStatusEnum *,_Connection *)' : overloaded member function not found in 'sql::ConnectionsEventImpl'
+                 E:\projects\sql.manager.x86\include\sql.connectionseventimpl.hpp(16) : see declaration of 'sql::ConnectionsEventImpl'
+     1>source\sql.connectionseventimpl.cpp(90): error C2352: 'sql::ConnectionsEventImpl::AllocDataTransfer' : illegal call of non-static member function
+                 E:\projects\sql.manager.x86\include\sql.connectionseventimpl.hpp(153) : see declaration of 'sql::ConnectionsEventImpl::AllocDataTransfer'
+     1>source\sql.connectionseventimpl.cpp(94): error C2440: '=' : cannot convert from '_Connection *' to 'sql::_Connection *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>source\sql.connectionseventimpl.cpp(96): error C2352: 'sql::ConnectionsEventImpl::Notify' : illegal call of non-static member function
+                 E:\projects\sql.manager.x86\include\sql.connectionseventimpl.hpp(152) : see declaration of 'sql::ConnectionsEventImpl::Notify'
+     1>source\sql.connectionseventimpl.cpp(105): error C2872: '_Command' : ambiguous symbol
+                 could be 'C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\adoint.h(87) : _ADOCommand _Command'
+                 or       'E:\projects\sql.manager.x86\include\sql.connectionseventimpl.hpp(36) : sql::_Command'
+     1>source\sql.connectionseventimpl.cpp(106): error C2872: '_Recordset' : ambiguous symbol
+                 could be 'C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\adoint.h(195) : _ADORecordset _Recordset'
+                 or       'E:\projects\sql.manager.x86\include\sql.connectionseventimpl.hpp(37) : sql::_Recordset'
+     1>source\sql.connectionseventimpl.cpp(107): error C2872: '_Connection' : ambiguous symbol
+                 could be 'source\sql.connectionseventimpl.cpp(44) : _Connection'
+                 or       'E:\projects\sql.manager.x86\include\sql.connectionseventimpl.hpp(30) : sql::_Connection'
+     1>source\sql.connectionseventimpl.cpp(108): error C2511: 'HRESULT sql::ConnectionsEventImpl::raw_WillExecute(BSTR *,CursorTypeEnum *,LockTypeEnum *,long *,EventStatusEnum *,_Command *,_Recordset *,_Connection *)' : overloaded member function not found in 'sql::ConnectionsEventImpl'
+                 E:\projects\sql.manager.x86\include\sql.connectionseventimpl.hpp(16) : see declaration of 'sql::ConnectionsEventImpl'
+     1>source\sql.connectionseventimpl.cpp(109): error C2352: 'sql::ConnectionsEventImpl::AllocDataTransfer' : illegal call of non-static member function
+                 E:\projects\sql.manager.x86\include\sql.connectionseventimpl.hpp(153) : see declaration of 'sql::ConnectionsEventImpl::AllocDataTransfer'
+     1>source\sql.connectionseventimpl.cpp(116): error C2440: '=' : cannot convert from '_Command *' to 'sql::_Command *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>source\sql.connectionseventimpl.cpp(117): error C2440: '=' : cannot convert from '_Recordset *' to 'sql::_Recordset *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>source\sql.connectionseventimpl.cpp(118): error C2440: '=' : cannot convert from '_Connection *' to 'sql::_Connection *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>source\sql.connectionseventimpl.cpp(120): error C2352: 'sql::ConnectionsEventImpl::Notify' : illegal call of non-static member function
+                 E:\projects\sql.manager.x86\include\sql.connectionseventimpl.hpp(152) : see declaration of 'sql::ConnectionsEventImpl::Notify'
+     1>source\sql.connectionseventimpl.cpp(127): error C2872: '_Command' : ambiguous symbol
+                 could be 'source\sql.connectionseventimpl.cpp(105) : _Command'
+                 or       'E:\projects\sql.manager.x86\include\sql.connectionseventimpl.hpp(36) : sql::_Command'
+     1>source\sql.connectionseventimpl.cpp(128): error C2872: '_Recordset' : ambiguous symbol
+                 could be 'source\sql.connectionseventimpl.cpp(106) : _Recordset'
+                 or       'E:\projects\sql.manager.x86\include\sql.connectionseventimpl.hpp(37) : sql::_Recordset'
+     1>source\sql.connectionseventimpl.cpp(129): error C2872: '_Connection' : ambiguous symbol
+                 could be 'source\sql.connectionseventimpl.cpp(44) : _Connection'
+                 or       'E:\projects\sql.manager.x86\include\sql.connectionseventimpl.hpp(30) : sql::_Connection'
+     1>source\sql.connectionseventimpl.cpp(130): error C2511: 'HRESULT sql::ConnectionsEventImpl::raw_ExecuteComplete(LONG,sql::_Error *,EventStatusEnum *,_Command *,_Recordset *,_Connection *)' : overloaded member function not found in 'sql::ConnectionsEventImpl'
+                 E:\projects\sql.manager.x86\include\sql.connectionseventimpl.hpp(16) : see declaration of 'sql::ConnectionsEventImpl'
+     1>source\sql.connectionseventimpl.cpp(131): error C2352: 'sql::ConnectionsEventImpl::AllocDataTransfer' : illegal call of non-static member function
+                 E:\projects\sql.manager.x86\include\sql.connectionseventimpl.hpp(153) : see declaration of 'sql::ConnectionsEventImpl::AllocDataTransfer'
+     1>source\sql.connectionseventimpl.cpp(136): error C2440: '=' : cannot convert from '_Command *' to 'sql::_Command *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>source\sql.connectionseventimpl.cpp(137): error C2440: '=' : cannot convert from '_Recordset *' to 'sql::_Recordset *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>source\sql.connectionseventimpl.cpp(138): error C2440: '=' : cannot convert from '_Connection *' to 'sql::_Connection *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>source\sql.connectionseventimpl.cpp(140): error C2352: 'sql::ConnectionsEventImpl::Notify' : illegal call of non-static member function
+                 E:\projects\sql.manager.x86\include\sql.connectionseventimpl.hpp(152) : see declaration of 'sql::ConnectionsEventImpl::Notify'
+     1>source\sql.connectionseventimpl.cpp(149): error C2872: '_Connection' : ambiguous symbol
+                 could be 'source\sql.connectionseventimpl.cpp(44) : _Connection'
+                 or       'E:\projects\sql.manager.x86\include\sql.connectionseventimpl.hpp(30) : sql::_Connection'
+     1>source\sql.connectionseventimpl.cpp(150): error C2511: 'HRESULT sql::ConnectionsEventImpl::raw_WillConnect(BSTR *,BSTR *,BSTR *,long *,EventStatusEnum *,_Connection *)' : overloaded member function not found in 'sql::ConnectionsEventImpl'
+                 E:\projects\sql.manager.x86\include\sql.connectionseventimpl.hpp(16) : see declaration of 'sql::ConnectionsEventImpl'
+     1>source\sql.connectionseventimpl.cpp(151): error C2352: 'sql::ConnectionsEventImpl::AllocDataTransfer' : illegal call of non-static member function
+                 E:\projects\sql.manager.x86\include\sql.connectionseventimpl.hpp(153) : see declaration of 'sql::ConnectionsEventImpl::AllocDataTransfer'
+     1>source\sql.connectionseventimpl.cpp(158): error C2440: '=' : cannot convert from '_Connection *' to 'sql::_Connection *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>source\sql.connectionseventimpl.cpp(160): error C2352: 'sql::ConnectionsEventImpl::Notify' : illegal call of non-static member function
+                 E:\projects\sql.manager.x86\include\sql.connectionseventimpl.hpp(152) : see declaration of 'sql::ConnectionsEventImpl::Notify'
+     1>source\sql.connectionseventimpl.cpp(166): error C2872: '_Connection' : ambiguous symbol
+                 could be 'source\sql.connectionseventimpl.cpp(44) : _Connection'
+                 or       'E:\projects\sql.manager.x86\include\sql.connectionseventimpl.hpp(30) : sql::_Connection'
+     1>source\sql.connectionseventimpl.cpp(167): error C2511: 'HRESULT sql::ConnectionsEventImpl::raw_ConnectComplete(sql::_Error *,EventStatusEnum *,_Connection *)' : overloaded member function not found in 'sql::ConnectionsEventImpl'
+                 E:\projects\sql.manager.x86\include\sql.connectionseventimpl.hpp(16) : see declaration of 'sql::ConnectionsEventImpl'
+     1>source\sql.connectionseventimpl.cpp(168): error C2352: 'sql::ConnectionsEventImpl::AllocDataTransfer' : illegal call of non-static member function
+                 E:\projects\sql.manager.x86\include\sql.connectionseventimpl.hpp(153) : see declaration of 'sql::ConnectionsEventImpl::AllocDataTransfer'
+     1>source\sql.connectionseventimpl.cpp(172): error C2440: '=' : cannot convert from '_Connection *' to 'sql::_Connection *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>source\sql.connectionseventimpl.cpp(174): error C2352: 'sql::ConnectionsEventImpl::Notify' : illegal call of non-static member function
+                 E:\projects\sql.manager.x86\include\sql.connectionseventimpl.hpp(152) : see declaration of 'sql::ConnectionsEventImpl::Notify'
+     1>source\sql.connectionseventimpl.cpp(178): error C2872: '_Connection' : ambiguous symbol
+                 could be 'source\sql.connectionseventimpl.cpp(44) : _Connection'
+                 or       'E:\projects\sql.manager.x86\include\sql.connectionseventimpl.hpp(30) : sql::_Connection'
+     1>source\sql.connectionseventimpl.cpp(179): error C2511: 'HRESULT sql::ConnectionsEventImpl::raw_Disconnect(EventStatusEnum *,_Connection *)' : overloaded member function not found in 'sql::ConnectionsEventImpl'
+                 E:\projects\sql.manager.x86\include\sql.connectionseventimpl.hpp(16) : see declaration of 'sql::ConnectionsEventImpl'
+     1>source\sql.connectionseventimpl.cpp(180): error C2352: 'sql::ConnectionsEventImpl::AllocDataTransfer' : illegal call of non-static member function
+                 E:\projects\sql.manager.x86\include\sql.connectionseventimpl.hpp(153) : see declaration of 'sql::ConnectionsEventImpl::AllocDataTransfer'
+     1>source\sql.connectionseventimpl.cpp(183): error C2440: '=' : cannot convert from '_Connection *' to 'sql::_Connection *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>source\sql.connectionseventimpl.cpp(185): error C2352: 'sql::ConnectionsEventImpl::Notify' : illegal call of non-static member function
+                 E:\projects\sql.manager.x86\include\sql.connectionseventimpl.hpp(152) : see declaration of 'sql::ConnectionsEventImpl::Notify'
+     1>Done Building Project "E:\projects\sql.manager.x86\sql.manager.vcxproj" (ClCompile target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.47
